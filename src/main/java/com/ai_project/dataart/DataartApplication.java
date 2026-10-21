@@ -7,7 +7,7 @@ import java.util.TimeZone;
 @SpringBootApplication
 public class DataartApplication {
 
-    static void main(String[] args) {
+    public static void main(String[] args) {
         // Це має бути першим рядком
         TimeZone.setDefault(TimeZone.getTimeZone("UTC"));
         System.setProperty("user.timezone", "UTC");
